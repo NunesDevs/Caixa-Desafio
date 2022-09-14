@@ -5,7 +5,7 @@
 
 
 ##### Primeira versão contem 66 linhas de código, design simples e funcionalidade simples.</p>
-- [Script completo da primeira versão](https://github.com/NunesDevs/Caixa-Desafio/Caixa-1)
+- [Script completo da primeira versão](https://github.com/NunesDevs/Caixa-Desafio/tree/main/Caixa-1)
 ###### Lógica:
 ```bash
 w = float(input("Qual valor deseja sacar? R$ " )) 
@@ -59,7 +59,7 @@ if uu > 0:
 ```
 
 ##### Segunda versão contem 89 linhas de código, com melhor design e funcionalidade.
-- [Script completo da segunda versão](https://github.com/NunesDevs/Caixa-Desafio/Caixa-2)
+- [Script completo da segunda versão](https://github.com/NunesDevs/Caixa-Desafio/tree/main/Caixa-2)
 ###### Lógica:
 ```bash
 valor = float(input("Valor: "))
@@ -94,7 +94,7 @@ if resto < 2:
 ```
 
 ##### Terceira versão contem 5 linhas, focado no objetivo de dar a esperada saída, sem design e funcionalidades.
-- [Script completo da terceira versão](https://github.com/NunesDevs/Caixa-Desafio/Caixa-3)
+- [Script completo da terceira versão](https://github.com/NunesDevs/Caixa-Desafio/tree/main/Caixa-3)
 ###### Lógica:
 ```bash 
 valor = float(input("Valor que deseja sacar: "))`
