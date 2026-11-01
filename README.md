@@ -104,3 +104,36 @@ for i in y:
     valor = x // i; r = x % i; x = r
     print(valor, 'Notas de:', i)
 ```
+
+## Operação e arquitetura verificadas
+
+Scripts independentes de console em Caixa-1, Caixa-2 e Caixa-3, sem banco ou integração bancária.
+
+Arquivos principais: `Caixa-1/program.py`, `Caixa-2/program.py`, `Caixa-3/program.py`.
+
+### Requisitos e execução
+
+Python 3; somente biblioteca padrão.
+
+```text
+python Caixa-1/program.py
+python Caixa-2/program.py
+python Caixa-3/program.py
+```
+
+
+
+### Testes e estado
+
+Não foi identificada uma suíte automatizada específica para os fluxos descritos; valide a execução e os casos de borda antes de publicar.
+
+Estado: projeto de estudo/experimental. Deploy ativo não foi confirmado nesta revisão.
+
+### Limitações conhecidas
+
+- Caixa-3 inclui denominação 1, diferentemente das versões anteriores.
+- Entradas inválidas e condições booleanas da versão 2 precisam revisão.
+
+### Licença e manutenção
+
+Nenhum arquivo de licença foi identificado nesta revisão; não foi adicionada uma nova licença. Atualize comandos e limitações quando houver mudança de comportamento.
