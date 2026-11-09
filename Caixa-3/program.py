@@ -1,5 +1,9 @@
-x = float(input("Valor que deseja sacar: "))
-z = x; y = [100, 50, 20, 10, 5, 2, 1]
-for i in y:
-    x = z // i; r = z % i; z = r
-    print(x, 'Notas de:', i)
+"""Entrada independente da versão 3 do desafio."""
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from cash import main
+
+if __name__ == "__main__":
+    main(include_one=True)
